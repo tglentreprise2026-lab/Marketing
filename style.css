@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0b1120;
+  color: #f8fafc;
+}
+
+header {
+  background: linear-gradient(90deg, #0ea5e9, #1e3a8a);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.packs {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pack {
+  background: #020617;
+  padding: 25px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.pack h3 {
+  margin-top: 0;
+}
+
+.price {
+  color: #22c55e;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.populaire {
+  border: 2px solid gold;
+}
+
+.formulaire {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+input, select, textarea {
+  width: 85%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  display: block;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  background: #22c55e;
+  color: #020617;
+  padding: 14px 35px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+.why {
+  background: #020617;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.why ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
